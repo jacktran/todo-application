@@ -8,10 +8,12 @@ import  { FooterComponent } from './footer/footer.component';
 import  { TodoListComponent } from './todo/list/todo-list.component';
 import  { TodoItemComponent } from './todo/item/todo-item.component';
 import  { TodoInputComponent } from './todo/input/todo-input.component';
+import  { CardComponent } from  './card/card.component';
+import  { TagDirectiveList } from  './directive/tag.directive';
 
 @NgModule({
   declarations: [
-    AppComponent, HeaderComponent, FooterComponent,TodoListComponent, TodoItemComponent, TodoInputComponent
+    AppComponent, HeaderComponent, FooterComponent,TodoListComponent, TodoItemComponent, TodoInputComponent, CardComponent , MyTagDirective
   ],
   imports: [
     BrowserModule,
@@ -23,4 +25,5 @@ import  { TodoInputComponent } from './todo/input/todo-input.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
 

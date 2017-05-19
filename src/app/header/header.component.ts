@@ -9,7 +9,7 @@ import  { Component } from '@angular/core';
 @Component({
     selector : 'app-header',
     template : `<div >
-                    <p>This is body section</p>
+                    <p></p>
                 </div>`
 })
 

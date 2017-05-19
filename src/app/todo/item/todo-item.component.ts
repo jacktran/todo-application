@@ -22,7 +22,6 @@ export  class TodoItemComponent {
     constructor(){}
 
     onCompletionChanged(){
-        //this.onChange.emit();
         this.todoItem.completed ? false : true;
     }
 }
