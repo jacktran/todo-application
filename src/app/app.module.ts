@@ -13,7 +13,7 @@ import  { TagDirectiveList } from  './directive/tag.directive';
 
 @NgModule({
   declarations: [
-    AppComponent, HeaderComponent, FooterComponent,TodoListComponent, TodoItemComponent, TodoInputComponent, CardComponent , MyTagDirective
+    AppComponent, HeaderComponent, FooterComponent,TodoListComponent, TodoItemComponent, TodoInputComponent, CardComponent , TagDirectiveList 
   ],
   imports: [
     BrowserModule,
